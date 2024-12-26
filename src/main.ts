@@ -15,6 +15,10 @@ import {
   faCartShopping,
   faBars,
   faClose,
+  faArrowRight,
+  faArrowLeft,
+  faStar,
+  faShare,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { faHeart, faUser } from '@fortawesome/free-regular-svg-icons'
@@ -28,6 +32,10 @@ library.add(
   faUser,
   faBars,
   faClose,
+  faArrowRight,
+  faArrowLeft,
+  faStar,
+  faShare,
 )
 const app = createApp(App)
 
