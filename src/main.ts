@@ -19,6 +19,13 @@ import {
   faArrowLeft,
   faStar,
   faShare,
+  faShippingFast,
+  faCoins,
+  faCreditCard,
+  faHeadphones,
+  faPhone,
+  faLocation,
+  faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { faHeart, faUser } from '@fortawesome/free-regular-svg-icons'
@@ -36,6 +43,13 @@ library.add(
   faArrowLeft,
   faStar,
   faShare,
+  faShippingFast,
+  faCoins,
+  faCreditCard,
+  faHeadphones,
+  faPhone,
+  faLocation,
+  faEnvelope,
 )
 const app = createApp(App)
 

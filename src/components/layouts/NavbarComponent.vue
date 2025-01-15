@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="p-4 sticky top-0 z-[100] bg-white bg-opacity-90 backdrop-blur-lg backdrop-filter">
     <div class="flex justify-between items-center">
       <div class="logo">
         <img src="@/assets/images/logo.png" width="100px" alt="" />
@@ -120,7 +120,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import ButtonComp from './ButtonComp.vue'
+import ButtonComp from '../ButtonComp.vue'
 
 const isOpen = ref(false)
 const isMegMenuOpen = ref(false)
